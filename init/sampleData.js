@@ -1,0 +1,32 @@
+const sampleListings = [
+  { title: "Cozy Apartment in NYC", description: "A stylish 2-bedroom apartment with a skyline view.", image: "https://example.com/image1.jpg", price: 250000, location: "New York, NY", country: "USA" },
+  { title: "Beachfront Condo in Miami", description: "A luxurious 3-bedroom condo with ocean views.", image: "https://example.com/image2.jpg", price: 500000, location: "Miami, FL", country: "USA" },
+  { title: "Spacious Townhouse in LA", description: "Modern townhouse with open-concept living spaces.", image: "https://example.com/image3.jpg", price: 650000, location: "Los Angeles, CA", country: "USA" },
+  { title: "Elegant Penthouse in Chicago", description: "Top-floor penthouse with breathtaking city views.", image: "https://example.com/image4.jpg", price: 980000, location: "Chicago, IL", country: "USA" },
+  { title: "Ranch Home in Austin", description: "A peaceful 5-acre ranch home with modern finishes.", image: "https://example.com/image5.jpg", price: 450000, location: "Austin, TX", country: "USA" },
+  { title: "Mountain Cabin in Colorado", description: "Cozy wooden cabin with stunning mountain scenery.", image: "https://example.com/image6.jpg", price: 375000, location: "Aspen, CO", country: "USA" },
+  { title: "Historic Brownstone in Boston", description: "Classic 3-story brownstone in a historic neighborhood.", image: "https://example.com/image7.jpg", price: 870000, location: "Boston, MA", country: "USA" },
+  { title: "Luxury Mansion in Beverly Hills", description: "Expansive mansion with private pool and garden.", image: "https://example.com/image8.jpg", price: 5200000, location: "Beverly Hills, CA", country: "USA" },
+  { title: "Modern Loft in San Francisco", description: "Industrial-style loft with exposed brick and high ceilings.", image: "https://example.com/image9.jpg", price: 860000, location: "San Francisco, CA", country: "USA" },
+  { title: "Lakehouse in Minnesota", description: "Serene lakefront home with private dock.", image: "https://example.com/image10.jpg", price: 399000, location: "Minneapolis, MN", country: "USA" },
+  { title: "Countryside Estate in Kentucky", description: "Sprawling estate with horse stables and rolling fields.", image: "https://example.com/image11.jpg", price: 920000, location: "Lexington, KY", country: "USA" },
+  { title: "Luxury Villa in Hawaii", description: "Beachside villa with tropical landscaping.", image: "https://example.com/image12.jpg", price: 3200000, location: "Maui, HI", country: "USA" },
+  { title: "Contemporary House in Seattle", description: "Sleek modern home with eco-friendly design.", image: "https://example.com/image13.jpg", price: 760000, location: "Seattle, WA", country: "USA" },
+  { title: "Historic Estate in Charleston", description: "Colonial-style home with wrap-around porch.", image: "https://example.com/image14.jpg", price: 840000, location: "Charleston, SC", country: "USA" },
+  { title: "Elegant Townhome in Philadelphia", description: "Three-story townhome in the heart of the city.", image: "https://example.com/image15.jpg", price: 540000, location: "Philadelphia, PA", country: "USA" },
+  { title: "Ski Chalet in Utah", description: "Perfect getaway home near ski resorts.", image: "https://example.com/image16.jpg", price: 490000, location: "Park City, UT", country: "USA" },
+  { title: "Desert Home in Arizona", description: "Southwestern-style house with stunning desert views.", image: "https://example.com/image17.jpg", price: 420000, location: "Phoenix, AZ", country: "USA" },
+  { title: "Forest Retreat in Oregon", description: "Secluded home surrounded by lush forest.", image: "https://example.com/image18.jpg", price: 530000, location: "Portland, OR", country: "USA" },
+  { title: "Urban Condo in Dallas", description: "High-rise condo with panoramic city views.", image: "https://example.com/image19.jpg", price: 670000, location: "Dallas, TX", country: "USA" },
+  { title: "Country Home in Vermont", description: "Charming farmhouse with acres of green land.", image: "https://example.com/image20.jpg", price: 385000, location: "Burlington, VT", country: "USA" },
+  { title: "Waterfront Property in Florida", description: "Private marina access and breathtaking sunset views.", image: "https://example.com/image21.jpg", price: 980000, location: "Tampa, FL", country: "USA" },
+  { title: "Luxury Cottage in Napa Valley", description: "Winery-inspired home with scenic vineyard views.", image: "https://example.com/image22.jpg", price: 790000, location: "Napa Valley, CA", country: "USA" },
+  { title: "Modern Duplex in Houston", description: "Spacious duplex with stylish interior.", image: "https://example.com/image23.jpg", price: 450000, location: "Houston, TX", country: "USA" },
+  { title: "Artistic Studio in Santa Fe", description: "Creative space perfect for artists and musicians.", image: "https://example.com/image24.jpg", price: 310000, location: "Santa Fe, NM", country: "USA" },
+  { title: "Sunny Apartment in San Diego", description: "Beachside living with year-round sunshine.", image: "https://example.com/image25.jpg", price: 695000, location: "San Diego, CA", country: "USA" },
+  { title: "Suburban Family Home in Atlanta", description: "Great for families with spacious backyard.", image: "https://example.com/image26.jpg", price: 550000, location: "Atlanta, GA", country: "USA" },
+  { title: "Loft Apartment in Denver", description: "Industrial loft with downtown access.", image: "https://example.com/image27.jpg", price: 630000, location: "Denver, CO", country: "USA" },
+  { title: "Gorgeous House in Nashville", description: "Music-inspired design with outdoor entertainment space.", image: "https://example.com/image28.jpg", price: 680000, location: "Nashville, TN", country: "USA" }
+];
+
+module.exports = sampleListings;
